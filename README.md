@@ -9,7 +9,7 @@
 
 You can install package via pip, but I'd recommend use make.
 
-[![asciicast](https://asciinema.org/a/0190jbtC0wwYdnASzUG9MrPri.svg)](https://asciinema.org/a/0190jbtC0wwYdnASzUG9MrPri) 
+[![asciicast](https://asciinema.org/a/sGt9gkKZEOm9aeeavX5wCqkEE.svg)](https://asciinema.org/a/sGt9gkKZEOm9aeeavX5wCqkEE)
 
 Check all valiable commands in Makefile. 
 More about make and why it's cool [here](https://makefile.site/) 
@@ -18,9 +18,8 @@ More about make and why it's cool [here](https://makefile.site/)
 
 ### Player win
 
-[![asciicast](https://asciinema.org/a/6R9vJTUUEh7Z8TtFXVEWOMn2F.svg)](https://asciinema.org/a/6R9vJTUUEh7Z8TtFXVEWOMn2F)
+[![asciicast](https://asciinema.org/a/7Z0Zx5T64QdF1HvxxOfiJkwAW.svg)](https://asciinema.org/a/7Z0Zx5T64QdF1HvxxOfiJkwAW)
 
 ### Player lose
 
-[![asciicast](https://asciinema.org/a/Oib3E2uryhRGLhuUHFRgU1Roi.svg)](https://asciinema.org/a/Oib3E2uryhRGLhuUHFRgU1Roi)
-
+[![asciicast](https://asciinema.org/a/OQ98uVVEuXhqKuLyLDPKbslSI.svg)](https://asciinema.org/a/OQ98uVVEuXhqKuLyLDPKbslSI)
