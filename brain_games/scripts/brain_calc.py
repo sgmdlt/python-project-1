@@ -4,12 +4,7 @@ from brain_games.welcome import welcome
 from brain_games.scripts.engine import engine
 
 
-def greet():
-    print('Welcome to Brain Games!')
-
-
 def main():
-    greet()
     user_name = welcome()
     engine(game_calc, user_name)
 
