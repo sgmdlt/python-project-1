@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import prompt
+from brain_games.welcome import welcome
 
 
-def engine(game_name, user_name):
+def engine(game_name):
+    user_name = welcome()
     for tries in range(0, 3):
         (expression, correct_answer) = game_name()
         print('Question: {}'.format(expression))
