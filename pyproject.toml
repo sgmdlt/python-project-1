@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "1.0.0"
+version = "1.1.0"
 description = "First study project at hexlet.io"
 authors = ["Ivan Neivan <justgodshot@gmail.com>"]
 packages = [
@@ -21,3 +21,4 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
