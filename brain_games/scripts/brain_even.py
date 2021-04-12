@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-from brain_games.game_even import game_even
+from brain_games.games.game_even import game_even
 from brain_games.welcome import welcome
+from brain_games.scripts.engine import engine
 
 
 def greet():
@@ -9,8 +10,8 @@ def greet():
 
 def main():
     greet()
-    name = welcome()
-    game_even(name)
+    user_name = welcome()
+    engine(game_even, user_name)
 
 
 if __name__ == '__main__':
