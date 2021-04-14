@@ -14,12 +14,25 @@ You can install package via pip, but I'd recommend use make.
 Check all valiable commands in Makefile. 
 More about make and why it's cool [here](https://makefile.site/) 
 
+---
 ## Usage
 
-### Player win
+### Brain-Even Game
+Answer "yes" if number is even, or "no".
 
-[![asciicast](https://asciinema.org/a/15rLNb7I1GwO1yOiK23NmngVc.svg)](https://asciinema.org/a/15rLNb7I1GwO1yOiK23NmngVc)
+[![asciicast](https://asciinema.org/a/ZauYSZJ0ZYV9B2fqeTITpIAuw.svg)](https://asciinema.org/a/ZauYSZJ0ZYV9B2fqeTITpIAuw)
+
+### Brain-Calc Game
+Solve the expression.
+
+[![asciicast](https://asciinema.org/a/4YHjchAZObe20SMuTJyueqhp7.svg)](https://asciinema.org/a/4YHjchAZObe20SMuTJyueqhp7)
+
+### Brain-GCD Game
+Find the greatest common divisor. Tough one!
+
+[![asciicast](https://asciinema.org/a/OnzRBilQet25kj9OAdHcYAR2w.svg)](https://asciinema.org/a/OnzRBilQet25kj9OAdHcYAR2w)
 
 ### Player lose
+It's a shame to lose, but repetition is the mother of learning.
 
-[![asciicast](https://asciinema.org/a/MVYbL5q4Ibz1lzMX21R9HmCO1.svg)](https://asciinema.org/a/MVYbL5q4Ibz1lzMX21R9HmCO1)
+[![asciicast](https://asciinema.org/a/DQA6CmKSVbK7et2FUDuuYBAEI.svg)](https://asciinema.org/a/DQA6CmKSVbK7et2FUDuuYBAEI)
