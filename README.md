@@ -18,8 +18,8 @@ More about make and why it's cool [here](https://makefile.site/)
 
 ### Player win
 
-[![asciicast](https://asciinema.org/a/7Z0Zx5T64QdF1HvxxOfiJkwAW.svg)](https://asciinema.org/a/7Z0Zx5T64QdF1HvxxOfiJkwAW)
+[![asciicast](https://asciinema.org/a/15rLNb7I1GwO1yOiK23NmngVc.svg)](https://asciinema.org/a/15rLNb7I1GwO1yOiK23NmngVc)
 
 ### Player lose
 
-[![asciicast](https://asciinema.org/a/OQ98uVVEuXhqKuLyLDPKbslSI.svg)](https://asciinema.org/a/OQ98uVVEuXhqKuLyLDPKbslSI)
+[![asciicast](https://asciinema.org/a/MVYbL5q4Ibz1lzMX21R9HmCO1.svg)](https://asciinema.org/a/MVYbL5q4Ibz1lzMX21R9HmCO1)
