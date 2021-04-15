@@ -4,8 +4,16 @@ from brain_games.welcome import welcome
 
 
 def engine(game_name):
+    '''
+    Run chosen game and display dialog messages.
+
+    Arguments
+    game_name -- name of game module (in 'games' package)
+    '''
+
     user_name = welcome()
-    for tries in range(0, 3):
+    tries = 3
+    for _ in range(0, tries):
         (expression, correct_answer) = game_name()
         print('Question: {}'.format(expression))
         user_answer = prompt.string('Your answer: ')
