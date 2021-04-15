@@ -17,7 +17,7 @@ package-install:
 	python3 -m pip install --user dist/*.whl
 
 package-remove:
-	python3 -m pip uninstall hexlet-code
+	python3 -m pip uninstall brain_games
 
 lint:
 	poetry run flake8 brain_games
