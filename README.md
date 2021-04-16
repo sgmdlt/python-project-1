@@ -37,6 +37,11 @@ Guess, what number is missing in the arithmetic progression?
 
 [![asciicast](https://asciinema.org/a/AooSf4Zi6gGIFiuGkIKuBw4ti.svg)](https://asciinema.org/a/AooSf4Zi6gGIFiuGkIKuBw4ti)
 
+### Brain-Prime Game
+Answer "yes" if number is prime. Otherwise answer "no". It's simple!
+
+[![asciicast](https://asciinema.org/a/J8SL5xLeccQaMN6NCovXYsP3O.svg)](https://asciinema.org/a/J8SL5xLeccQaMN6NCovXYsP3O)
+
 ### Player lose
 It's a shame to lose, but repetition is the mother of learning.
 
