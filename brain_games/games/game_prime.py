@@ -1,6 +1,8 @@
 import random
 
-prime_numbers = (2, 3, 5, 7, 11, 13, 17, 19)
+PRIME_NUMBERS = (2, 3, 5, 7, 11, 13, 17, 19)
+RAND_MIN = 1
+RAND_MAX = 20
 
 
 def game_prime():
@@ -13,9 +15,9 @@ def game_prime():
     '''
 
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    random_number = random.randint(1, 20)
+    random_number = random.randint(RAND_MIN, RAND_MAX)
     expression = '{n}'.format(n=random_number)
-    if random_number in prime_numbers:
+    if random_number in PRIME_NUMBERS:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'

@@ -1,11 +1,18 @@
 import random
 
+START_MIN = 1
+START_MAX = 20
+STEP_MIN = 2
+STEP_MAX = 10
+LEN_MIN = 6
+LEN_MAX = 12
+
 
 def get_prog():
     '''Return start, end and step of random arithmetic progression.'''
-    start = random.randint(1, 16)
-    step = random.randint(2, 10)
-    lenght = random.randint(6, 12)
+    start = random.randint(START_MIN, START_MAX)
+    step = random.randint(STEP_MIN, STEP_MAX)
+    lenght = random.randint(LEN_MIN, LEN_MAX)
     end = start + lenght * step
     return start, end, step
 
