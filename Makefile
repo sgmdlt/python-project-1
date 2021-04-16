@@ -4,9 +4,6 @@ install:
 brain-games:
 	poetry run brain-games
 
-brain-even:
-	poetry run brain-even
-
 build:
 	poetry build
 
@@ -17,7 +14,7 @@ package-install:
 	python3 -m pip install --user dist/*.whl
 
 package-remove:
-	python3 -m pip uninstall brain_games
+	python3 -m pip uninstall brain_games -y
 
 lint:
 	poetry run flake8 brain_games
