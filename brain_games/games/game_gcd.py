@@ -1,6 +1,10 @@
 import random
 
 
+RAND_MIN = 1
+RAND_MAX = 10
+
+
 def find_gcd(first_number, second_number):
     '''Find GCD of two numbers with Euclidean division algorithm'''
     while first_number != second_number:
@@ -22,10 +26,9 @@ def game_gcd():
 
     print('Find the greatest common divisor of given numbers.')
 
-    random_cap = 10
-    base_divisor = random.randint(1, random_cap)
-    first_number = base_divisor * random.randint(1, random_cap)
-    second_number = base_divisor * random.randint(1, random_cap)
+    base_divisor = random.randint(RAND_MIN, RAND_MAX)
+    first_number = base_divisor * random.randint(RAND_MIN, RAND_MAX)
+    second_number = base_divisor * random.randint(RAND_MIN, RAND_MAX)
     expression = '{0} {1}'.format(first_number, second_number)
 
     gcd = find_gcd(first_number, second_number)

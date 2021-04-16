@@ -1,11 +1,13 @@
 import operator
 import random
 
-operators = {
+OPERATORS = {
     '+': operator.add,
     '-': operator.sub,
     '*': operator.mul,
 }
+RAND_MIN = 1
+RAND_MAX = 20
 
 
 def game_calc():
@@ -19,9 +21,9 @@ def game_calc():
     '''
 
     print('What is the result of the expression?')
-    first_number = random.randint(1, 20)
-    second_number = random.randint(1, 20)
-    (sign, op) = random.choice(list(operators.items()))
+    first_number = random.randint(RAND_MIN, RAND_MAX)
+    second_number = random.randint(RAND_MIN, RAND_MAX)
+    (sign, op) = random.choice(list(OPERATORS.items()))
 
     expression = '{first} {s} {second} = '.format(
         first=first_number, s=sign, second=second_number)
