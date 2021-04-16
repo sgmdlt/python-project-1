@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import prompt
 from brain_games.welcome import welcome
 
