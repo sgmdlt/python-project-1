@@ -32,6 +32,11 @@ Find the greatest common divisor. Tough one!
 
 [![asciicast](https://asciinema.org/a/OnzRBilQet25kj9OAdHcYAR2w.svg)](https://asciinema.org/a/OnzRBilQet25kj9OAdHcYAR2w)
 
+### Brain-Progression Game
+Guess, what number is missing in the arithmetic progression?
+
+[![asciicast](https://asciinema.org/a/AooSf4Zi6gGIFiuGkIKuBw4ti.svg)](https://asciinema.org/a/AooSf4Zi6gGIFiuGkIKuBw4ti)
+
 ### Player lose
 It's a shame to lose, but repetition is the mother of learning.
 
