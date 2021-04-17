@@ -3,9 +3,10 @@ import random
 
 RAND_MIN = 1
 RAND_MAX = 20
+GAME_MESSAGE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_even():
+def game_task():
     '''
     Display random number and return its parity
 
@@ -14,7 +15,6 @@ def game_even():
     correct_ansewr -- 'yes' or 'no' depending on parity (ex. 'yes')
     '''
 
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     expression = random.randint(RAND_MIN, RAND_MAX)
     if expression % 2 == 0:
         correct_answer = 'yes'

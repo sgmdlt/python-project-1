@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.games.game_even import game_even
+from brain_games.games import game_even
 from brain_games.engine import engine
 
 
