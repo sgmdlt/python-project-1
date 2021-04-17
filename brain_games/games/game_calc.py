@@ -8,9 +8,10 @@ OPERATORS = {
 }
 RAND_MIN = 1
 RAND_MAX = 20
+GAME_MESSAGE = 'What is the result of the expression?'
 
 
-def game_calc():
+def game_task():
     '''
     Display arithmetic expression and return its result
 
@@ -20,7 +21,6 @@ def game_calc():
     correct_answer -- result of chosen expression in 'str' format. (ex. '11')
     '''
 
-    print('What is the result of the expression?')
     first_number = random.randint(RAND_MIN, RAND_MAX)
     second_number = random.randint(RAND_MIN, RAND_MAX)
     (sign, op) = random.choice(list(OPERATORS.items()))
