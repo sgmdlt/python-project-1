@@ -3,6 +3,7 @@ import random
 
 RAND_MIN = 1
 RAND_MAX = 10
+GAME_MESSAGE = 'Find the greatest common divisor of given numbers.'
 
 
 def find_gcd(first_number, second_number):
@@ -15,7 +16,7 @@ def find_gcd(first_number, second_number):
     return first_number
 
 
-def game_gcd():
+def game_task():
     '''
     Display two random numbers and return their GCD.
 
@@ -23,8 +24,6 @@ def game_gcd():
     expression -- string with two random numbers. (ex. '42 30')
     correct_answer -- their GCD in 'str' format. (ex. '6')
     '''
-
-    print('Find the greatest common divisor of given numbers.')
 
     base_divisor = random.randint(RAND_MIN, RAND_MAX)
     first_number = base_divisor * random.randint(RAND_MIN, RAND_MAX)
