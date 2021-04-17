@@ -24,22 +24,22 @@ def game_task():
 
     Return
     expression -- string with progression
-    and '...' symbols instead randomly chosen number. (ex. '2 4 ... 8')
+    and '..' symbols instead randomly chosen number. (ex. '2 4 .. 8')
     correct_answer -- hidden with '..' number in progression. (ex. '6')
     '''
 
-    prog_string = ' '
     (start, end, step) = get_prog()
 
     progression = range(start, end, step)
     hidden_number = random.choice(list(progression))
 
+    prog_list = []
     for number in list(progression):
-        if number != hidden_number:
-            prog_string += '{num}'.format(num=number) + ' '
+        if number == hidden_number:
+            prog_list.append('..')
         else:
-            prog_string += '..' + ' '
+            prog_list.append(str(number))
 
-    expression = prog_string
+    expression = ' '.join(prog_list)
     corect_answer = str(hidden_number)
     return expression, corect_answer
