@@ -1,6 +1,8 @@
 import prompt
 from brain_games.welcome import welcome
 
+TRIES = 3
+
 
 def engine(game_name):
     '''
@@ -11,9 +13,9 @@ def engine(game_name):
     '''
 
     user_name = welcome()
-    tries = 3
-    for _ in range(0, tries):
-        (expression, correct_answer) = game_name()
+    print(game_name.GAME_MESSAGE)
+    for _ in range(0, TRIES):
+        (expression, correct_answer) = game_name.game_task()
         print('Question: {}'.format(expression))
         user_answer = prompt.string('Your answer: ')
 
