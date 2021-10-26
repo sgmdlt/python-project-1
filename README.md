@@ -7,12 +7,12 @@
 
 ## Installation
 
-You can install package via pip, but I'd recommend use make.
 
-[![asciicast](https://asciinema.org/a/sGt9gkKZEOm9aeeavX5wCqkEE.svg)](https://asciinema.org/a/sGt9gkKZEOm9aeeavX5wCqkEE)
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install brain-games.
 
-Check all valiable commands in Makefile. 
-More about make and why it's cool [here](https://makefile.site/) 
+```bash
+pip install --user git+https://github.com/sgmdlt/python-project-lvl1.git
+```
 
 ---
 ## Usage
