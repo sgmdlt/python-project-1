@@ -7,12 +7,21 @@
 
 ## Installation
 
+<<<<<<< HEAD
 You can install package via pip, but I'd recommend use make.
 
 [![asciicast](https://asciinema.org/a/sGt9gkKZEOm9aeeavX5wCqkEE.svg)](https://asciinema.org/a/sGt9gkKZEOm9aeeavX5wCqkEE)
 
 Check all valiable commands in Makefile. 
 More about make and why it's cool [here](https://makefile.site/) 
+=======
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install brain-games.
+
+```bash
+pip install --user git+https://github.com/sgmdlt/python-project-lvl1.git
+```
+>>>>>>> a54264a9efc19305f3125dd059396d4a74b003a9
 
 ---
 ## Usage
@@ -45,4 +54,8 @@ Answer "yes" if number is prime. Otherwise answer "no". It's simple!
 ### Player lose
 It's a shame to lose, but repetition is the mother of learning.
 
+<<<<<<< HEAD
 [![asciicast](https://asciinema.org/a/DQA6CmKSVbK7et2FUDuuYBAEI.svg)](https://asciinema.org/a/DQA6CmKSVbK7et2FUDuuYBAEI)
+=======
+[![asciicast](https://asciinema.org/a/DQA6CmKSVbK7et2FUDuuYBAEI.svg)](https://asciinema.org/a/DQA6CmKSVbK7et2FUDuuYBAEI)
+>>>>>>> a54264a9efc19305f3125dd059396d4a74b003a9
