@@ -19,7 +19,7 @@ Answer "yes" if number is even, or "no".
 [![asciicast](https://asciinema.org/a/ZauYSZJ0ZYV9B2fqeTITpIAuw.svg)](https://asciinema.org/a/ZauYSZJ0ZYV9B2fqeTITpIAuw)
 
 ### Brain-Calc Game
-Solve the expression.
+Solve the question.
 
 [![asciicast](https://asciinema.org/a/4YHjchAZObe20SMuTJyueqhp7.svg)](https://asciinema.org/a/4YHjchAZObe20SMuTJyueqhp7)
 
