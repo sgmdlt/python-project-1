@@ -2,7 +2,7 @@
 name = "hexlet-code"
 version = "1.5.3"
 description = "First study project at hexlet.io"
-authors = ["Ivan Neivan <justgodshot@gmail.com>"]
+authors = ["Ivan Neivan <user@usermail>"]
 packages = [
     { include = "brain_games" },
 ]
@@ -13,6 +13,7 @@ prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.0"
+wemake-python-styleguide = "^0.16.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
