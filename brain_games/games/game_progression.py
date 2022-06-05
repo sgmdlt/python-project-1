@@ -6,40 +6,34 @@ STEP_MIN = 2
 STEP_MAX = 10
 LEN_MIN = 6
 LEN_MAX = 12
+FILLER = '..'
 GAME_MESSAGE = 'What number is missing in the progression?'
 
 
-def get_prog():
-    '''Return start, end and step of random arithmetic progression.'''
+def get_progression(start, step, lenght):
+    """Return start, end and step of random arithmetic progression."""
+    end = start + step * lenght
+    return list(range(start, end, step))
+
+
+def game_task():  # noqa: WPS210
+    """Display arithmetic progression and return number in it.
+
+    Return
+    question -- string with progression
+    and '..' symbols instead randomly chosen number. (ex. '2 4 .. 8')
+    correct_answer -- hidden with '..' number in progression. (ex. '6')
+    """
     start = random.randint(START_MIN, START_MAX)
     step = random.randint(STEP_MIN, STEP_MAX)
     lenght = random.randint(LEN_MIN, LEN_MAX)
-    end = start + lenght * step
-    return start, end, step
 
+    prog_list = get_progression(start, step, lenght)
+    hidden_number = random.choice(prog_list)
 
-def game_task():
-    '''
-    Display arithmetic progression and return number in it.
-
-    Return
-    expression -- string with progression
-    and '..' symbols instead randomly chosen number. (ex. '2 4 .. 8')
-    correct_answer -- hidden with '..' number in progression. (ex. '6')
-    '''
-
-    (start, end, step) = get_prog()
-
-    progression = range(start, end, step)
-    hidden_number = random.choice(list(progression))
-
-    prog_list = []
-    for number in list(progression):
-        if number == hidden_number:
-            prog_list.append('..')
-        else:
-            prog_list.append(str(number))
-
-    expression = ' '.join(prog_list)
+    question = ' '.join(
+        str(num) if num != hidden_number else FILLER  # noqa: WPS504
+        for num in prog_list
+    )
     corect_answer = str(hidden_number)
-    return expression, corect_answer
+    return question, corect_answer
