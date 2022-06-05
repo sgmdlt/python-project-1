@@ -11,6 +11,11 @@ RAND_MAX = 20
 GAME_MESSAGE = 'What is the result of the question?'
 
 
+def calculate(op, first_number, second_number):
+    operation = OPERATORS.get(op)
+    return operation(first_number, second_number)
+
+
 def game_task():  # noqa: WPS210
     """Display arithmetic question and return its result.
 
@@ -21,8 +26,8 @@ def game_task():  # noqa: WPS210
     """
     first_number = random.randint(RAND_MIN, RAND_MAX)
     second_number = random.randint(RAND_MIN, RAND_MAX)
-    sign, op = random.choice(list(OPERATORS.items()))
+    sign = random.choice(OPERATORS)
 
     question = f'{first_number} {sign} {second_number} = '
-    correct_answer = str(op(first_number, second_number))
+    correct_answer = calculate(sign, first_number, second_number)
     return question, correct_answer
