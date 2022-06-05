@@ -1,24 +1,30 @@
 import random
 
-PRIME_NUMBERS = (2, 3, 5, 7, 11, 13, 17, 19)
 RAND_MIN = 1
 RAND_MAX = 20
 GAME_MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
+def is_prime(number):
+    if number <= 1:
+        return False
+    for divisor in range(2, number // 2 + 1):
+        if number % divisor == 0:
+            return False
+    return True
+
+
 def game_task():
-    '''
-    Display random number and return its primality
+    """Display random number and return its primality.
 
     Return
-    expression -- random number. (ex. 17)
+    question -- random number. (ex. 17)
     correct_answer -- 'yes' if number is prime, otherwise 'no'. (ex. 'yes')
-    '''
-
-    random_number = random.randint(RAND_MIN, RAND_MAX)
-    expression = '{n}'.format(n=random_number)
-    if random_number in PRIME_NUMBERS:
+    """
+    number = random.randint(RAND_MIN, RAND_MAX)
+    question = f'{number}'
+    if is_prime(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return expression, correct_answer
+    return question, correct_answer
